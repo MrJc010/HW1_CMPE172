@@ -1,0 +1,10 @@
+---
+- name: ennable apache
+  hosts: host3
+  sudo: yes
+
+  tasks:
+  - name: Deploy Website
+    command: service apache2 start
+
+

@@ -1,0 +1,9 @@
+---
+- name: HelloWorld
+  hosts: host3
+  sudo: yes
+
+  tasks:
+     - name: Undeploy Website
+       command: service apache2 stop
+    
